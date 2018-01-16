@@ -30,11 +30,6 @@ public class AnagramController {
 		
 		return new ResponseEntity<Map<String, Set<String>>>( result, HttpStatus.OK);
 	}
-	
-	public static void main(String[] args) {
-
-	}
-
 }
 
 /*
