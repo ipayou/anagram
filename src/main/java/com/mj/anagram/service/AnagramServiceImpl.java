@@ -69,6 +69,9 @@ public class AnagramServiceImpl implements AnagramService {
 		for(String word: words.split(",") ){
 			String key = normaliseAnagram( word );
 			Set<String> anagrams = WORD_STORE.get( key );
+			if(anagrams != null && ! anagrams.isEmpty() && anagrams.contains(word))
+				anagrams.remove(word);
+			
 			result.put( word, anagrams != null? anagrams: new HashSet<>());
 		}
 				
