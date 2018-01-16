@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -63,7 +64,7 @@ public class AnagramServiceImpl implements AnagramService {
 
 	@Override
 	public Map<String, Set<String>> getAnagrams(String words) {
-		Map<String, Set<String>> result = new HashMap<>();
+		Map<String, Set<String>> result = new LinkedHashMap<>();
 		
 		if(words != null && ! words.isEmpty())
 		for(String word: words.split(",") ){
