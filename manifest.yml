@@ -1,0 +1,7 @@
+---
+applications:
+- name: mj-anagram
+  instances: 1
+  path: /target/mj-anagram-0.0.1-SNAPSHOT.jar
+  services:
+  - mj-anagram-config-server
