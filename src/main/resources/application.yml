@@ -1,0 +1,12 @@
+server:
+  port: 10200 # 8080  
+spring:
+  jackson:
+    serialization.fail-on-empty-beans: false  
+anagram:
+  protocol: "http://"
+  domain: "static.abscond.org"
+  path: "/"
+  file: "wordlist.txt"
+  
+
