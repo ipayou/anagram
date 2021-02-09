@@ -56,7 +56,7 @@ GET /crepitus,paste,kinship,enlist,boaster,fresher,sinks,knits,sort
 {"crepitus":["cuprites","pictures","piecrust"],"paste":["pates","peats","septa","spate","tapes","tepas"],"kinship":["pinkish"],"enlist":["elints","inlets","listen","silent","tinsel"],"boaster":["boaters","borates","rebatos","sorbate"],"fresher":["refresh"],"sinks":["skins"],"knits":["skint","stink","tinks"],"sort":["orts","rots","stor","tors"]}
 
  
-
+http://localhost:10200/anagram/crepitus,crepitus,paste,kinship,enlist,boaster,fresher,sinks,knits,sort
  
 
 GET /sdfwehrtgegfg

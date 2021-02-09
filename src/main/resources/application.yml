@@ -8,5 +8,11 @@ anagram:
   domain: "static.abscond.org"
   path: "/"
   file: "wordlist.txt"
+local:
+  protocol: "file://"
+  domain: ""
+  path: "/c:/workspace/anagram/src/main/resources/"
+  file: "wordlist.txt"
+
   
 

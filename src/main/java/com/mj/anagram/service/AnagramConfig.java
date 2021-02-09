@@ -7,16 +7,16 @@ import org.springframework.stereotype.Component;
 @Component
 @RefreshScope
 public class AnagramConfig {
-	@Value("${anagram.protocol}")
+	@Value("${local.protocol}")
 	private String protocol;
 	
-	@Value("${anagram.domain}")
+	@Value("${local.domain}")
 	private String domain;
 	
-	@Value("${anagram.path}")
+	@Value("${local.path}")
 	private String path;
 	
-	@Value("${anagram.file}")
+	@Value("${local.file}")
 	private String file;
 
 	public String getProtocol() {
